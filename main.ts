@@ -2,15 +2,15 @@ input.setAccelerometerRange(AcceleratorRange.TwoG)
 let x = 0;
 let y = 0;
 let z = 0;
-let ceil = 100;
-let floor = -100;
+let ceil = 300;
+let floor = -300;
 input.onButtonPressed(Button.A, function() {
     ceil += 100
     floor -= 100
 })
 input.onButtonPressed(Button.B, function() {
-    ceil =- 100
-    floor =+ 100
+    ceil -= 100
+    floor += 100
 })
 
 basic.forever(function() {
