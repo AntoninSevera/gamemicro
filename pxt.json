@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-explosive-sensitivity-helper": "github:tomaskazda/pxt-explosive-sensitivity-helper#9c213dba11f1601651aa6be30157a53e27963dab"
     },
     "files": [
         "main.blocks",
