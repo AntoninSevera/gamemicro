@@ -4,13 +4,16 @@ let y = 0;
 let z = 0;
 let ceil = 300;
 let floor = -300;
+let a = 150
 input.onButtonPressed(Button.A, function() {
     ceil += 50 //lehčí
     floor -= 50
+    a += 50
 })
 input.onButtonPressed(Button.B, function() {
     ceil -= 50 //těžší
     floor += 50
+    a -= 50
 })
 ExpSense.restart()
 
